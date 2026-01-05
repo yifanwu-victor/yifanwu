@@ -1,5 +1,5 @@
 ---
-title: "Optimized Gradient Clipping for Noisy Label Learning"
+title: "Investigating Data Pruning for Pretraining Biological Foundation Models at Scale"
 collection: publications
 category: conference
 permalink: /publication/2026-BioCoreset
