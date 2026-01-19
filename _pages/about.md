@@ -8,10 +8,7 @@ redirect_from:
 ---
 
 👋 Hi, I’m **Yifan Wu (吴一凡)**.  
-I am currently a MSc student in Artificial Intelligence at **The Chinese University of Hong Kong (CUHK)** and a research intern under [Prof. Yu Li](https://liyu95.com/). 
-I work on two research themes: **Efficient ML/CV** and **AI4Bio**.  
-For Efficient ML/CV, I am supervised by [Prof. Weizhong Zhang](https://weizhonz.github.io/) (Fudan University) and [Prof. Xiangyu Yue](https://xyue.io/) (CUHK).  
-For AI4Bio, I am a research intern with [Prof. Yu Li](https://liyu95.com/).  
+I am currently a MSc student in Artificial Intelligence at **The Chinese University of Hong Kong (CUHK)**. I work on two research themes: Efficient ML/CV and AI4Bio. For Efficient ML/CV, I am supervised by [Prof. Weizhong Zhang](https://weizhonz.github.io/) (Fudan University) and [Prof. Xiangyu Yue](https://xyue.io/) (CUHK), and for AI4Bio, I am a research intern with [Prof. Yu Li](https://liyu95.com/).  
 
 ---
 
