@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Welcome to Yifan Wu’s Homepage!"
+title: "Yifan Wu | AI/ML Researcher at CUHK"
 author_profile: true
 redirect_from: 
   - /about/
