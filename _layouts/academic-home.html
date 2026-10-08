@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+  {% include head.html %}
+  {% include head/custom.html %}
+  <link rel="stylesheet" href="{{ '/assets/css/home.css' | relative_url }}">
+  <script src="{{ '/assets/js/home.js' | relative_url }}" defer></script>
+</head>
+<body class="academic-home" id="home">
+<a class="home-skip" href="#about">Skip to content</a>
+<header class="home-header"><nav aria-label="Main navigation">{% for item in site.data.home.navigation %}<a href="#{{ item.id }}">{{ item.title }}</a>{% endfor %}</nav></header>
+<div class="home-wrapper">
+  <aside class="home-sidebar" aria-label="Personal profile">{% include author-profile.html %}</aside>
+  <main class="home-content">
+    <section id="about" tabindex="-1"><h1>About Me</h1>{{ content }}</section>
+    <section id="news" tabindex="-1"><h2>News</h2><dl class="home-timeline">{% for item in site.data.home.news %}<div><dt>{{ item.date }}</dt><dd>🎉 {{ item.text }}</dd></div>{% endfor %}</dl></section>
+    <section id="research" tabindex="-1"><h2>Selected Research</h2><p class="research-note">(* Equal contribution; For a full list of publications, please visit my <a href="{{ site.author.googlescholar }}"><strong>Google Scholar</strong></a> or <a href="{{ site.author.dblp }}"><strong>DBLP</strong></a>.)</p>
+    {% for paper in site.data.research %}
+    <article class="research-item{% if paper.teaser %} has-teaser{% endif %}">
+      {% if paper.teaser %}<a class="research-teaser" href="{% if paper.projecturl %}{{ paper.projecturl }}{% elsif paper.paperurl %}{{ paper.paperurl }}{% else %}{{ paper.teaser | prepend: '/images/' | relative_url }}{% endif %}" aria-label="View {{ paper.title | escape }}"><img src="{{ paper.teaser | prepend: '/images/' | relative_url }}" alt="Overview of {{ paper.title | escape }}" loading="lazy"></a>{% endif %}
+      <div class="research-text"><span class="research-venue">{{ paper.venue }}</span><h3>{% assign title_url = paper.titleurl | default: paper.paperurl %}{% if title_url %}<a href="{{ title_url }}">{{ paper.title }}</a>{% else %}{{ paper.title }}{% endif %}</h3><p class="research-authors">{{ paper.authors }}</p>
+      <div class="research-links">{% if paper.paperurl %}<a href="{{ paper.paperurl }}">Paper</a>{% endif %}{% if paper.codeurl %}<a href="{{ paper.codeurl }}">Code</a>{% endif %}{% if paper.projecturl and paper.show_project_link != false %}<a href="{{ paper.projecturl }}">Project</a>{% endif %}{% for link in paper.links %}<a href="{{ link.url }}">{{ link.label }}</a>{% endfor %}</div></div>
+    </article>{% endfor %}</section>
+    <section id="educations" tabindex="-1"><h2>Education</h2><dl class="home-timeline">{% for item in site.data.home.education %}<div><dt>{{ item.date }}</dt><dd><strong>{{ item.title }}</strong><br>{{ item.detail }}</dd></div>{% endfor %}</dl></section>
+    <section id="internships" tabindex="-1"><h2>Internships</h2><dl class="home-timeline">{% for item in site.data.home.internships %}<div><dt>{{ item.date }}</dt><dd><strong>{{ item.title }}</strong>, {{ item.detail }}</dd></div>{% endfor %}</dl></section>
+    <section id="services" tabindex="-1"><h2>Professional Service</h2><h3>Conference Reviewer</h3><ul>{% for item in site.data.home.reviewing %}<li>{{ item }}</li>{% endfor %}</ul></section>
+    <footer class="home-footer">© {{ site.time | date: '%Y' }} {{ site.author.name }}</footer>
+  </main>
+</div>
+</body>
+</html>

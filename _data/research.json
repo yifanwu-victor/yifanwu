@@ -1,0 +1,67 @@
+[
+  {
+    "title": "OpenViTac: Learning and Benchmarking Visuo-Tactile Policies in a Unified Sim-and-Real Framework",
+    "authors": "<strong>Yifan Wu*</strong>, Qin Li*, Nan Min*, Guojin Zhong, Haoyu Zhao, Zhiyuan Li, Houze Xu, Shengqi Xu, Xingyao Lin, Zijie Diao, Zhaoxiang Liu, Shiguo Lian, Shunlin Lu, Shihao Zhao, Ziyi Ye, Zuxuan Wu, Yu-Gang Jiang",
+    "venue": "Preprint · 2026",
+    "projecturl": "https://fvl-repo.github.io/OpenViTac/",
+    "teaser": "publications/openvitac.png",
+    "paperurl": "https://arxiv.org/abs/2610.10384",
+    "codeurl": "https://github.com/FVL-Repo/OpenViTac",
+    "titleurl": "https://fvl-repo.github.io/OpenViTac/",
+    "show_project_link": false
+  },
+  {
+    "title": "Distill on a Diet: Efficient Knowledge Distillation via Learnable Data Pruning",
+    "authors": "<strong>Yifan Wu*</strong>, Yiqi Wang*, Xichen Ye*, Wenjing Yan, Xiaoqiang Li<sup>#</sup>, Cheng Jin, Xiangyu Yue, and Weizhong Zhang<sup>#</sup>",
+    "venue": "ECCV 2026",
+    "paperurl": "https://arxiv.org/abs/2606.25488",
+    "teaser": "publications/distill-on-a-diet-eccv2026.png"
+  },
+  {
+    "title": "From Local Mismatch to Global Impact: Optimizing Cache Reuse Policy for Efficient Diffusion",
+    "authors": "Xichen Ye*, <strong>Yifan Wu*</strong>, Zhikang Xie, Xiangyu Yue, Cheng Jin, Weizhong Zhang",
+    "venue": "Preprint · 2026",
+    "paperurl": "https://arxiv.org/abs/2608.13043",
+    "teaser": "publications/gcache-panda2026.png"
+  },
+  {
+    "title": "Investigating Data Pruning for Pretraining Biological Foundation Models at Scale",
+    "authors": "<strong>Yifan Wu*</strong>, Jiyue Jiang*<sup>#</sup>, Xichen Ye, Yiqi Wang, Chang Zhou, Yitao Xu, Jiayang Chen, He Hu, Weizhong Zhang<sup>#</sup>, Cheng Jin, Jiao Yuan<sup>#</sup>, Yu Li<sup>#</sup>",
+    "venue": "AAAI 2026",
+    "paperurl": "https://arxiv.org/abs/2512.12932",
+    "teaser": "publications/biocoreset-aaai2026.png"
+  },
+  {
+    "title": "Revisiting Energy-Based Model for Out-of-Distribution Detection",
+    "authors": "<strong>Yifan Wu*</strong>, Xichen Ye*, Songmin Dai, Dengye Pan, Xiaoqiang Li<sup>#</sup>, Weizhong Zhang, Yifan Chen<sup>#</sup>",
+    "venue": "TKDE 2026",
+    "paperurl": "https://arxiv.org/abs/2412.03058",
+    "teaser": "publications/oest-tkde2026.png"
+  },
+  {
+    "title": "Active Negative Loss: A Robust Framework for Learning with Noisy Labels",
+    "authors": "Xichen Ye*, <strong>Yifan Wu*</strong>, Y. Xu, Xiaoqiang Li, Weizhong Zhang, Yifan Chen",
+    "venue": "Preprint · 2026",
+    "paperurl": "https://arxiv.org/abs/2412.02373"
+  },
+  {
+    "title": "Towards Robust Influence Functions with Flat Validation Minima",
+    "authors": "Xichen Ye, <strong>Yifan Wu</strong>, Weizhong Zhang<sup>#</sup>, Cheng Jin, Yifan Chen<sup>#</sup>",
+    "venue": "ICML 2025",
+    "paperurl": "https://icml.cc/virtual/2025/poster/45098",
+    "teaser": "publications/FVM-icml25.png"
+  },
+  {
+    "title": "Optimized Gradient Clipping for Noisy Label Learning",
+    "authors": "Xichen Ye, <strong>Yifan Wu</strong>, Weizhong Zhang, Xiaoqiang Li<sup>#</sup>, Yifan Chen<sup>#</sup>, Cheng Jin",
+    "venue": "AAAI 2025",
+    "paperurl": "https://ojs.aaai.org/index.php/AAAI/article/view/33025"
+  },
+  {
+    "title": "Generating and Reweighting Dense Contrastive Patterns for Unsupervised Anomaly Detection",
+    "authors": "Songmin Dai*, <strong>Yifan Wu*</strong>, Xiaoqiang Li<sup>#</sup>, Xiangyang Xue",
+    "venue": "AAAI 2024",
+    "paperurl": "https://ojs.aaai.org/index.php/AAAI/article/view/27910",
+    "teaser": "publications/GRAD-aaai24.png"
+  }
+]
