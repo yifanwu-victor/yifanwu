@@ -15,7 +15,8 @@
     "authors": "<strong>Yifan Wu*</strong>, Yiqi Wang*, Xichen Ye*, Wenjing Yan, Xiaoqiang Li<sup>#</sup>, Cheng Jin, Xiangyu Yue, and Weizhong Zhang<sup>#</sup>",
     "venue": "ECCV 2026",
     "paperurl": "https://arxiv.org/abs/2606.25488",
-    "teaser": "publications/distill-on-a-diet-eccv2026.png"
+    "teaser": "publications/distill-on-a-diet-eccv2026.png",
+    "codeurl": "https://github.com/yifanwu-victor/Distill-on-a-Diet"
   },
   {
     "title": "From Local Mismatch to Global Impact: Optimizing Cache Reuse Policy for Efficient Diffusion",
@@ -29,33 +30,38 @@
     "authors": "<strong>Yifan Wu*</strong>, Jiyue Jiang*<sup>#</sup>, Xichen Ye, Yiqi Wang, Chang Zhou, Yitao Xu, Jiayang Chen, He Hu, Weizhong Zhang<sup>#</sup>, Cheng Jin, Jiao Yuan<sup>#</sup>, Yu Li<sup>#</sup>",
     "venue": "AAAI 2026",
     "paperurl": "https://arxiv.org/abs/2512.12932",
-    "teaser": "publications/biocoreset-aaai2026.png"
+    "teaser": "publications/biocoreset-aaai2026.png",
+    "codeurl": "https://github.com/yifanwu-victor/bio-coreset"
   },
   {
     "title": "Revisiting Energy-Based Model for Out-of-Distribution Detection",
     "authors": "<strong>Yifan Wu*</strong>, Xichen Ye*, Songmin Dai, Dengye Pan, Xiaoqiang Li<sup>#</sup>, Weizhong Zhang, Yifan Chen<sup>#</sup>",
     "venue": "TKDE 2026",
     "paperurl": "https://arxiv.org/abs/2412.03058",
-    "teaser": "publications/oest-tkde2026.png"
+    "teaser": "publications/oest-tkde2026.png",
+    "codeurl": "https://github.com/yifanwu-victor/Outlier-Exposure-by-Simple-Transformations"
   },
   {
     "title": "Active Negative Loss: A Robust Framework for Learning with Noisy Labels",
     "authors": "Xichen Ye*, <strong>Yifan Wu*</strong>, Y. Xu, Xiaoqiang Li, Weizhong Zhang, Yifan Chen",
     "venue": "Preprint · 2026",
-    "paperurl": "https://arxiv.org/abs/2412.02373"
+    "paperurl": "https://arxiv.org/abs/2412.02373",
+    "codeurl": "https://github.com/xichenye0930/Active-Negative-Loss"
   },
   {
     "title": "Towards Robust Influence Functions with Flat Validation Minima",
     "authors": "Xichen Ye, <strong>Yifan Wu</strong>, Weizhong Zhang<sup>#</sup>, Cheng Jin, Yifan Chen<sup>#</sup>",
     "venue": "ICML 2025",
     "paperurl": "https://icml.cc/virtual/2025/poster/45098",
-    "teaser": "publications/FVM-icml25.png"
+    "teaser": "publications/FVM-icml25.png",
+    "codeurl": "https://github.com/xichenye0930/IF-FVM"
   },
   {
     "title": "Optimized Gradient Clipping for Noisy Label Learning",
     "authors": "Xichen Ye, <strong>Yifan Wu</strong>, Weizhong Zhang, Xiaoqiang Li<sup>#</sup>, Yifan Chen<sup>#</sup>, Cheng Jin",
     "venue": "AAAI 2025",
-    "paperurl": "https://ojs.aaai.org/index.php/AAAI/article/view/33025"
+    "paperurl": "https://ojs.aaai.org/index.php/AAAI/article/view/33025",
+    "codeurl": "https://github.com/xichenye0930/OGC"
   },
   {
     "title": "Generating and Reweighting Dense Contrastive Patterns for Unsupervised Anomaly Detection",
