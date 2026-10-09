@@ -4,6 +4,6 @@ permalink: /
 title: "Yifan Wu"
 excerpt: "Yifan Wu’s research in embodied AI, visuo-tactile intelligence, and efficient machine learning."
 ---
-I am an M.Sc. student in Artificial Intelligence at [The Chinese University of Hong Kong (CUHK)](https://www.cuhk.edu.hk/). I received my B.Eng. in Intelligent Science and Technology from Shanghai University in 2024.
+I am **Yifan Wu (吴一凡)**, an M.Sc. student in Artificial Intelligence at [The Chinese University of Hong Kong (CUHK)](https://www.cuhk.edu.hk/). I am currently a research assistant at Fudan University, advised by [Prof. Zuxuan Wu](https://zxwu.azurewebsites.net/).
 
-My research focuses on **Embodied AI** and **Efficient Machine Learning**. I currently work on visuo-tactile embodied intelligence at Fudan University with Prof. Zuxuan Wu and Prof. Ziyi Ye. Previously, I worked with [Prof. Xiangyu Yue](https://xyue.io/) and [Prof. Weizhong Zhang](https://weizhonz.github.io/) on efficient learning, and with [Prof. Yu Li](https://liyu95.com/) on machine learning for bioinformatics. My earlier research covered robust learning, data attribution, anomaly detection, and out-of-distribution detection.
+My research interests lie in **Embodied AI** and **Efficient Machine Learning**, with a current focus on visuo-tactile learning for robotic manipulation. Previously, I worked with [Prof. Weizhong Zhang](https://weizhonz.github.io/) and [Prof. Xiangyu Yue](https://xyue.io/) on efficient and robust machine learning, including data pruning, efficient inference, and data attribution.
