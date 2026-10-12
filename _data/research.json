@@ -37,7 +37,7 @@
     "title": "Revisiting Energy-Based Model for Out-of-Distribution Detection",
     "authors": "<strong>Yifan Wu*</strong>, Xichen Ye*, Songmin Dai, Dengye Pan, Xiaoqiang Li, Weizhong Zhang, Yifan Chen",
     "venue": "TKDE 2026",
-    "paperurl": "https://arxiv.org/abs/2412.03058",
+    "paperurl": "https://ieeexplore.ieee.org/abstract/document/11720269",
     "teaser": "publications/oest-tkde2026.png",
     "codeurl": "https://github.com/yifanwu-victor/Outlier-Exposure-by-Simple-Transformations"
   },
